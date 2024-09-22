@@ -11,9 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Lab report #1
 
-Follow the instructions posted at https://ds202-at-isu.github.io/labs.html for the lab assignment. The work is meant to be finished during the lab time, but you have time until Monday evening to polish things.
+#Section 12.1 
+So, 
+- We all made our githubs accounts and forked the team repository in our githubs accounts using the github classroom link shared on canvas announcements. 
+- We verified our installation of R and RStudio on our personal devices.
+- We installed Git by using the terminal commands `git --version` and installed git using the mac Xcode using the GUI command line tools.
+- We then declared our names and emails to github using the following commands:
+  - `git config --global user.name {your name}`
+  - `git config --global user.email {email}`
 
-Include your answers in this document (Rmd file). Make sure that it knits properly (into the md file). Upload both the Rmd and the md file to your repository.  
-
-All submissions to the github repo will be automatically uploaded for grading once the due date is passed.
-Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
+#Section 12.2
+- We made our own personal testing repositories to test the push and pull commands.
+- Creating a repo:
+ - Using the github GUI we created our own public repo's and named them as MyRepo and had these repo's made out of no templates and default README.md files.
