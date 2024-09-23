@@ -5,45 +5,47 @@
 
 ## Section 12.1
 
-- We all made our Githubs accounts and forked the team repository in our
-  Githubs accounts using the Github classroom link shared on canvas
-  announcements.
+- We all made our **Githubs** accounts and forked the team repository in
+  our **Githubs** accounts using the **Github** classroom link shared on
+  canvas announcements.
 - We ensured the installation of R and RStudio on our personal devices.
-- We installed Git by using the terminal commands `git --version` and
-  installed Git using the Mac Xcode Command Line Tools using the GUI
-  pop-up screen.
-- We then declared our names and emails to Github using the following
-  commands:
+- We installed **Git** by using the terminal commands `git --version`
+  and installed **Git** using the Mac Xcode Command Line Tools using the
+  GUI pop-up screen.
+- We then declared our names and emails to **Github** using the
+  following commands:
   - `git config --global user.name {your name}`
   - `git config --global user.email {your email}`
 
-## Section 12.2 - We made our own personal testing repositories to test
+## Section 12.2
 
-the push and pull commands. - Creating a repo: - Using the Github GUI we
-created our own public repo’s and named them as MyRepo and had these
-repo’s made out of no templates and default README.md files.
+- We made our own personal testing repositories to test the push and
+  pull commands.
+- **Creating a repository**:
+  - Using the **Github** GUI, we created our own public repositories and
+    named them `MyRepo`, with no templates and default `README.md`
+    files.
 
 ## Section 12.3
 
-- To edit the Rmd file, we opened the GitHub repo on RStudio using the
-  GUI offered by executing the following steps:
+- To edit the Rmd file, we opened the **Github** repo on RStudio using
+  the GUI offered by executing the following steps:
   - Open RStudio
-  - Click on File \> New Project \> Version Control \> Git \> Entered
-    the GitHub Remote Repo Link and selected the location where we want
-    the project to be saved on our local device.
+  - Click on **File \> New Project \> Version Control \> Git \> Entered
+    the **Github\*\* Remote Repo Link and selected the location where we
+    want the project to be saved on our local device.\*\*
 - By doing so, RStudio, created a local version for the remote
   repository on our device and then we started to make local changes and
   saved them on our device.
 
-## Section 12.4
+## Section 12.4 & 12.5
 
-- Since there are 6 steps listed on Chapter 12 Happy Git With R, that
-  are to be executed, we started documenting all the steps here in this
-  Rmd file.
+- Since there are 6 steps listed on Chapter 12 Happy **Git** With R,
+  that are to be executed, we started documenting all the steps here in
+  this Rmd file.
 - We split up the tasks as follows:
-  - Amaya Brooks \> Sections 12.1 & 12.2
-  - Pranava Sai Maganti \> Sections 12.3 & 12.4
-  - Adam Grimm \> Sections 12.5 & 12.6
+  - **Amaya Brooks** \> Sections 12.1 & 12.2 & 12.6
+  - **Pranava Sai Maganti** \> Sections 12.3 & 12.4 & 12.5
 - We started editing this file one by one based on the order of
   sections, and once Amaya finished making her changes, she used the
   following commands to push her local changes to the remote repository:
@@ -53,21 +55,31 @@ repo’s made out of no templates and default README.md files.
   - To push the changes: `git push origin main`
 - Once, her changes are done, Pranava followed the same steps to clone
   the repository through RStudio and checked for any changes by clicking
-  on Git in the upper right tab and selected the button that updates the
-  repo with any changes from the remote repo with the local repo.
+  on **Git** in the upper right tab and selected the button that updates
+  the repo with any changes from the remote repo with the local repo.
 - Once Pranava, finished his changes that is added documentation for
   Sections 12.3 and 12.4, he pushed the changes to the Remote Repository
   using the same steps mentioned earlier.
-- Finally, Adam repeated the same steps for updating the local repo and
-  added documentation for Sections 12.5 and 12.6 and pushed the changes
-  to the remote repository.
+- Finally, Amaya repeated the same steps for updating the local repo and
+  added documentation for Section 12.6 and pushed the changes to the
+  remote repository.
+
+## Section 12.6
+
+- Once the local changes were pushed to the remote **Git** repository,
+  we used the web version of **Github** to refresh the repository page
+  and review our changes in the remote repository.
+- After reviewing the changes, we had all our teammates update their
+  local branches using the following command:  
+  `git pull origin main`
 
 ## Section 12.7
 
 - Since deleting the local repository is dangerous as it deletes all the
   local changes, without doing so, we are describing how to delete a
   local repository:
-  - All GitHub repos once cloned, are saved as folders on our devices.
+  - All **Github** repos once cloned, are saved as folders on our
+    devices.
   - It depends on what commands we use to delete the folder - it either
     deletes the complete existence of the local repo folder or deletes a
     repo partially.
@@ -82,5 +94,15 @@ repo’s made out of no templates and default README.md files.
     - Then using the following command we delete the repo permanently
       making it not visible even in the recycle bin (highly not
       recommended): `rm -rf {local_repo_name}`.
+
+## Challenges
+
+- **Amaya** was new to using **GitHub** and **git** commands, we had to
+  take a step back and get everything setup on her device with reference
+  to what are needed for using **Git**.
+- **Pranava** has previously used and worked with **git** and **GitHub**
+  in few of his earlier classes and projects, so, he did not have any
+  challenges during this process of setting up **R** project on
+  **GitHub**.
 
 ------------------------------------------------------------------------
