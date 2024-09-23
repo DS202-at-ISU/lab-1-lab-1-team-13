@@ -114,5 +114,3 @@ knitr::opts_chunk$set(echo = TRUE)
 - **Pranava** has previously used and worked with **git** and **GitHub** in few of his earlier classes and projects, so, he did not have any challenges during this process of setting up **R** project on **GitHub**.
 
 ------------------------------------------------------------------------
-
-testing change from will
